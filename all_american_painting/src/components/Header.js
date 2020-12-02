@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from './Banner';
+import NavBar from './NavBar';
 
 const Header = () => {
     return (
         <div>
-            <h1>All American Painting - NavBar </h1>
+            <Banner />
+            <NavBar />
         </div>
     );
 };
