@@ -1,0 +1,15 @@
+.background-banner {
+    background-color: #B42033;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.background-banner p {
+    color: #FEFEFE;
+    font-size: 100%;
+}
+
+.background-banner p a {
+    color: #FEFEFE; 
+    font-size: 100%;
+}
