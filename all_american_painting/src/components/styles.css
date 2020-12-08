@@ -13,3 +13,26 @@
     color: #FEFEFE; 
     font-size: 100%;
 }
+
+.American-Flag {
+    background-image: url('images/American-Flag-Vertical.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;    
+}
+
+.about-us-text {
+    margin-top: 20%;
+}
+
+.about-us-padding {
+    padding: 2.5% 0 2.5% 0;
+}
+
+.about-us-cards {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom :5%;
+    background-color: white;
+}

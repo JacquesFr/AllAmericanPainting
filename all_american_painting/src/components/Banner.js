@@ -1,7 +1,4 @@
 import React from 'react';
-//import Container from 'react-bootstrap/Container';
-//import Row from 'react-bootstrap/Row';
-//import Col from 'react-bootstrap/Col';
 import './styles.css';
 import logo from './images/demo-logo.jpg';
 
@@ -10,7 +7,7 @@ const Banner = () => {
     return (
         <div className="background-banner container-fluid">
             <div className="row">
-                <div className="col-md-3 text-center">
+                <div className="col-md-3 text-center text-md-left">
                     <div>
                         <img alt="logo" src={logo} height="50%" width="60%" />
                     </div>
