@@ -1,0 +1,25 @@
+
+.navbar-light{
+    background-color: #ffffff;
+}
+
+
+a{
+    text-align: center;
+    font-size: x-large;
+  }
+ 
+#topheader .navbar-nav li > a {
+    text-transform: capitalize;
+    color: #333;
+    transition: background-color .2s, color .2s;
+
+}
+ul.nav a:hover{
+    background-color: rgb(0, 42, 255);
+    color: white;
+}
+
+#topheader .navbar-nav li.active > a {
+	color:  rgb(247, 9, 9);
+}
