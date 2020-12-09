@@ -1,16 +1,16 @@
 .background-banner {
-    background-color: #B42033;
+    background-color: #b22234;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
 .background-banner p {
-    color: #FEFEFE;
+    color: #ffffff;
     font-size: 100%;
 }
 
 .background-banner p a {
-    color: #FEFEFE; 
+    color: #ffffff; 
     font-size: 100%;
 }
 
@@ -34,5 +34,23 @@
     text-align: center;
     padding-top: 5%;
     padding-bottom :5%;
-    background-color: white;
+    background-color: #ffffff;
 }
+
+
+.navbar-light{
+    background-color: #ffffff;
+}
+
+a {
+    text-align: center;
+    font-size: x-large;
+}
+
+ul.nav a:hover {
+    color: #3c3b6e !important;
+    /* color: #ffffff !important;
+    background-color: #3c3b6e;
+    transition: background-color .5s, color .5s; */
+}
+
