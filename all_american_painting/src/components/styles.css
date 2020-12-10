@@ -15,15 +15,11 @@
 }
 
 .American-Flag {
-    background-image: url('images/American-Flag-Vertical.png');
+    background-image: url('images/American-Flag-Vertical-transparent.png');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;    
-}
-
-.about-us-text {
-    margin-top: 20%;
 }
 
 .about-us-padding {
@@ -52,5 +48,13 @@ ul.nav a:hover {
     /* color: #ffffff !important;
     background-color: #3c3b6e;
     transition: background-color .5s, color .5s; */
+}
+
+.button-background-blue {
+    background-color: #3c3b6e;
+}
+
+.button-text-white {
+    color: #ffffff;
 }
 

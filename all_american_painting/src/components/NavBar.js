@@ -27,32 +27,30 @@ class NavBar extends Component{
     render(){
         return(
             <div>
-                <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light justify-content-center" >
-                    <div class="mx-auto">   
-                        <ul class="nav justify-content-center">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                <nav className="navbar navbar-expand-md navbar-fixed-top navbar-light justify-content-center" >
+                    <div className="mx-auto">   
+                        <ul className="nav justify-content-center">
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarText">
-
-                                    <ul class="navbar-nav">
-                                           {this.state.links.map((link, i) =>
-                                                <NavLink
-                                                    path={link.path}
-                                                    text={link.text}
-                                                    isActive={link.isActive}
-                                                    key={link.path}
-                                                    onClick={() => this.handleClick(i)}
-                                                />
-                                           )}
-                                        </ul>
-                                </div>
+                            <div className="collapse navbar-collapse" id="navbarText">
+                                    <ul className="navbar-nav">
+                                        {this.state.links.map((link, i) =>
+                                            <NavLink
+                                                path={link.path}
+                                                text={link.text}
+                                                isActive={link.isActive}
+                                                key={link.path}
+                                                onClick={() => this.handleClick(i)}
+                                            />
+                                        )}
+                                    </ul>
+                            </div>
                         </ul> 
                     </div>
                 </nav>
-            </div>
-            
-        )
+            </div>   
+        );
     }
 }
 
