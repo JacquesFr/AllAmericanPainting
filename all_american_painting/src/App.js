@@ -1,16 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
-import Home from './components/Home'
+import NavBar from './components/NavBar';
+import Pages from './components/Main';
+import Banner from './components/Banner';
+
 
 class App extends React.Component {
     render() { 
         return (
             <div>
-                <Header />
-                <Home />
+                <NavBar />
+                <Pages />
+                <Banner />
             </div>
         );
     }
 };
 
 export default App;
+

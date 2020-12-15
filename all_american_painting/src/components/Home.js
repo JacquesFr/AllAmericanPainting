@@ -1,10 +1,12 @@
 import React from 'react';
+import SlideShow from './SlideShow';
+import AboutUs from './AboutUs';
 
 const Home = () => {
     return (
         <div>
-            <h1>All American Painting - Home: slide show </h1>
-            <h1>All American Painting - Home: Why us?</h1>
+            <SlideShow />
+            <AboutUs />
         </div>
     );
 };
