@@ -18,7 +18,7 @@ const Banner = () => {
                         ALL AMERICAN PAINTING <br />
                         1569 Kolln Street <br/>
                         Pleasanton, CA 94566 <br />
-                        <a href="tel:510-461-1677">510-461-1677</a>
+                        <a href="tel:510-461-1677">(510) 461-1677</a>
                     </p>
                     
                 </div>
