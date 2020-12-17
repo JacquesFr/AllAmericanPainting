@@ -1,42 +1,20 @@
 import React from 'react';
-
-import Header from './components/Header';
-import Home from './components/Home';
-import Route from './components/Route';
-import Commercial from './components/Commercial';
-import Residential from './components/Residential';
-import Contact from './components/Contact';
-import Process from './components/Process';
 import NavBar from './components/NavBar';
+import Pages from './components/Main';
+import Banner from './components/Banner';
 
 
 class App extends React.Component {
     render() { 
         return (
             <div>
-                 <Header />
-
-                <Route path="/">
-                    <Home />
-                </Route>
-                <Route path="/Commercial">
-                    <Commercial />
-                </Route>
-                <Route path="/Residential">
-                    <Residential />
-                </Route>
-                <Route path="/Process">
-                    <Process />
-                </Route>
-                <Route path="/Contact">
-                    <Contact />
-                </Route>
-
-                
-
+                <NavBar />
+                <Pages />
+                <Banner />
             </div>
         );
     }
 };
 
 export default App;
+

@@ -1,45 +1,56 @@
-import React from 'react';
-import './myStyle.css';
-import ToggleActive from './ToggleActive';
+import React, { Component } from 'react';
+import NavLink from './NavLink';
+import './styles.css';
 
+class NavBar extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            links: [
+                {path: "/", text:"About", isActive:false},
+                {path: "/Commercial", text:"Commercial Painting", isActive:false},
+                {path: "/Residential", text:"Residential Painting", isActive:false},
+                {path: "/Contact", text:"Contact", isActive:false}
+            ]
+        }
+    }
 
-const NavBar = () => {
-    return (
-            <div id="topheader">
-                <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light justify-content-center" >
-                    <div class="mx-auto">   
-                        <ul class="nav justify-content-center">
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+    handleClick(i){
+        const links = this.state.links.slice();
+        for(const j in links){
+            links[j].isActive = i === j;
+        }
+        this.setState({links:links});
+    }
+    
+    render(){
+        return(
+            <div>
+                <nav className="navbar navbar-expand-md navbar-fixed-top navbar-light justify-content-center" >
+                    <div className="mx-auto">   
+                        <ul className="nav justify-content-center">
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarText">
-
-                                    <ul class="navbar-nav justify-content-center">
-                                            <li class="nav-item active">
-                                            <a href="/" className="nav-link">Home<span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="/Commercial" className="nav-link">Commercial Painting</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="/Residential" className="nav-link">Residential Painting</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="/Process" className="nav-link">Our Process</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="/Contact" className="nav-link">Contact Us</a>
-                                            </li>
-                                        </ul>
-                                </div>
+                            <div className="collapse navbar-collapse" id="navbarText">
+                                    <ul className="navbar-nav">
+                                        {this.state.links.map((link, i) =>
+                                            <NavLink
+                                                path={link.path}
+                                                text={link.text}
+                                                isActive={link.isActive}
+                                                key={link.path}
+                                                onClick={() => this.handleClick(i)}
+                                            />
+                                        )}
+                                    </ul>
+                            </div>
                         </ul> 
                     </div>
                 </nav>
-            </div>
-          
-        
-    );
-};
+            </div>   
+        );
+    }
+}
 
 export default NavBar;
