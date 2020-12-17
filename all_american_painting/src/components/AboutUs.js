@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
 import AmericanFlag from './images/American-Flag.png'
+import AmericanFlagBay from './images/American-Flag-Bay.jpg'
+
 import Services from './images/SlideShow-prologis-process.JPG'
 
 const AboutUs = () => {
@@ -16,7 +18,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img className="featurette-image img-fluid mx-auto" src={AmericanFlag} width="500" height="400"></img>
+                        <img className="featurette-image img-fluid mx-auto" src={AmericanFlagBay} width="500" height="400"></img>
                     </div>
                 </div>
                 <hr className="featurette-divider" />
