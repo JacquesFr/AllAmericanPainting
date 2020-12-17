@@ -62,7 +62,32 @@ ul.nav a:hover {
     margin: auto;
 }
 
-.cards-style{
+.cards-style {
     margin-bottom: 1%;
+}
+
+.stats-container {
+    text-align: center;
+    margin: 2% 0 2% 0;
+    background-color: #3c3b6e;
+}
+
+.stats-item {
+    margin: 2% 0 2% 0;
+    color: white;
+}
+
+.icon-stats {
+    font-size: 3em;
+    margin-bottom: 1%;
+
+}
+
+.stats-number {
+    color: white;
+}
+
+h1 {
+    color: #b22234;
 }
 
