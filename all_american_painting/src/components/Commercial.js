@@ -6,6 +6,9 @@ import './styles.css';
 const Commercial = () => {
     return (
         <div>
+
+            {/* Jumbotron */}
+
             <div class="jumbotron">
                 <h1 class="display-4">Commercial Painting</h1>
                 <p class="lead">Serving some of the largest commercial buisnesses in the bay area for 25 years.</p>
@@ -107,8 +110,14 @@ const Commercial = () => {
                         <div class="card">
                             <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Preliminary</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Meet with the client to review the project, estimate cost, and determine the client's needs.</li>
+                                        <li> Perform complete analysis and review of all building surfaces and current paint condition.</li>
+                                        <li>Identify defects and problem areas then formulate solutions.</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
