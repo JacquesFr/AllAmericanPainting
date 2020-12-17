@@ -23,7 +23,7 @@ const Commercial = () => {
                             src={DerekSpray}
                             alt="Loading"
                             width="600"
-                            height="600"
+                            height="500"
                             />
                             <Carousel.Caption>
                             <h3>ALL AMERICAN PAINTING</h3>
@@ -37,7 +37,7 @@ const Commercial = () => {
                             src={DerekSpray}
                             alt="Loading"
                             width="600"
-                            height="600"
+                            height="500"
                             />
                             <Carousel.Caption>
                             <h3>ALL AMERICAN PAINTING</h3>
@@ -48,7 +48,7 @@ const Commercial = () => {
                     </Carousel>
                     </div>
                     <div class="col-md-6 paragraph-text">
-                        <h1>Our Commitment</h1>
+                        <h1 style={{color: "#b22234"}}>Our Commitment</h1>
                         <p>
                             We are the best, most loayl respected and trustworthy painting company in the bay area. Professional, go with us!
                         </p>
@@ -58,108 +58,121 @@ const Commercial = () => {
 
             {/* STATS */}
 
-            <div class="container-fluid">
+            <div class="container-fluid stats-container">
+                <hr/>
                 <div className="row">
-
-                    <div class="col-md-3">
+                    <div class="col-md-3 stats-item">
                         <div>
-                            <i className="fas fa-brush"></i>
-                            <h3>20+</h3>
+                            <i className="fas fa-brush icon-stats"></i>
+                            <h3 className="stats-number">20+</h3>
                             <p>Professional Painters</p>
                         </div>
                     </div>
                     
-                    <div class="col-md-3">
+                    <div class="col-md-3 stats-item">
                         <div>
-                            <i class="fas fa-tasks"></i>
-                            <h3>1000+</h3>
+                            <i class="fas fa-tasks icon-stats"></i>
+                            <h3 className="stats-number">1000+</h3>
                             <p>Completed Contracts</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 stats-item">
                         <div>
-                            <i class="far fa-building"></i>
-                            <h3>100,000 sqft</h3>
+                            <i class="far fa-building icon-stats"></i>
+                            <h3 className="stats-number">100,000 ft&sup2;</h3>
                             <p>Largest Project</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 stats-item">
                         <div>   
-                            <i class="fas fa-check"></i>
-                            <h3>25</h3>
+                            <i class="fas fa-check icon-stats"></i>
+                            <h3 className="stats-number">25</h3>
                             <p>Years in Buisness</p>
                         </div>
                     </div>
                 </div>
+                <hr/>
             </div>
 
 
             {/* OUR PROCESS */}
 
-            <hr/>
             <div class="container-fluid">
-                <h1 class="text-center">Our Process</h1>
-                <div class="row">
-                    <div class="col-md-4 cards-style">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 cards-style">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 cards-style">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+                <div>
+                    <h1 class="text-center" style={{color: "#b22234"}}>Our Process</h1>
+                    <p></p>
                 </div>
-
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 cards-style">
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 cards-style">
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="..."></img>
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                        <div class="card">
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                        <div class="card">
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                        <div class="card">
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                        <div class="card">
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                        <div class="card">
+                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
