@@ -11,6 +11,8 @@ const Commercial = () => {
                 <p class="lead">Serving some of the largest commercial buisnesses in the bay area for 25 years.</p>
             </div>
 
+            {/* Slide Show */}
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -53,6 +55,47 @@ const Commercial = () => {
                     </div>
                 </div>
             </div>
+
+            {/* STATS */}
+
+            <div class="container-fluid">
+                <div className="row">
+
+                    <div class="col-md-3">
+                        <div>
+                            <i className="fas fa-brush"></i>
+                            <h3>20+</h3>
+                            <p>Professional Painters</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div>
+                            <i class="fas fa-tasks"></i>
+                            <h3>1000+</h3>
+                            <p>Completed Contracts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <i class="far fa-building"></i>
+                            <h3>100,000 sqft</h3>
+                            <p>Largest Project</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>   
+                            <i class="fas fa-check"></i>
+                            <h3>25</h3>
+                            <p>Years in Buisness</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* OUR PROCESS */}
+
             <hr/>
             <div class="container-fluid">
                 <h1 class="text-center">Our Process</h1>
