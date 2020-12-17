@@ -48,7 +48,7 @@ const Commercial = () => {
                     </Carousel>
                     </div>
                     <div class="col-md-6 paragraph-text">
-                        <h1>Our Commitment</h1>
+                        <h1 style={{color: "#b22234"}}>Our Commitment</h1>
                         <p>
                             We are the best, most loayl respected and trustworthy painting company in the bay area. Professional, go with us!
                         </p>
@@ -99,7 +99,7 @@ const Commercial = () => {
 
             <div class="container-fluid">
                 <div>
-                    <h1 class="text-center">Our Process</h1>
+                    <h1 class="text-center" style={{color: "#b22234"}}>Our Process</h1>
                     <p></p>
                 </div>
                 <div class="row">
