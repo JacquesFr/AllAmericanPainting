@@ -1,6 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import DerekSpray from './images/SlideShow-derek-spraying.JPG';
+import Logo_BOTW from './images/Commercial/com-logo-botw.JPG';
+import Logo_Mizu from './images/Commercial/com-logo-mizuho.JPG';
+import Logo_Stan from './images/Commercial/com-logo-stanford.JPG';
+import Painting from './images/Commercial/com-painting.JPG';
+import Preliminary from './images/Commercial/com-preiminary.JPG';
+import Preparation from './images/Commercial/com-preparation.JPG';
+import Quality from './images/Commercial/com-quality-check.JPG';
+import Recommendation from './images/Commercial/com-recommendations.JPG';
+import Review from './images/Commercial/com-review.JPG';
+import Schedule from './images/Commercial/com-schedule.JPG';
 import './styles.css';
 
 const Commercial = () => {
@@ -23,29 +34,31 @@ const Commercial = () => {
                         <Carousel.Item interval={5000}>
                             <img
                             className="d-block w-100"
-                            src={DerekSpray}
+                            src={Logo_Mizu}
                             alt="Loading"
                             width="600"
                             height="500"
                             />
-                            <Carousel.Caption>
-                            <h3>ALL AMERICAN PAINTING</h3>
-                            <p>An expert commercial, industrial and residential painting company based in Pleasanton California.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
 
                         <Carousel.Item interval={5000}>
                             <img
                             className="d-block w-100"
-                            src={DerekSpray}
+                            src={Logo_BOTW}
                             alt="Loading"
                             width="600"
                             height="500"
                             />
-                            <Carousel.Caption>
-                            <h3>ALL AMERICAN PAINTING</h3>
-                            <p>An expert commercial, industrial and residential painting company based in Pleasanton, California.</p>
-                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <img
+                            className="d-block w-100"
+                            src={Logo_Stan}
+                            alt="Loading"
+                            width="600"
+                            height="500"
+                            />
                         </Carousel.Item>
 
                     </Carousel>
@@ -53,7 +66,7 @@ const Commercial = () => {
                     <div class="col-md-6 paragraph-text">
                         <h1 style={{color: "#b22234"}}>Our Commitment</h1>
                         <p>
-                            We are the best, most loyal respected and trustworthy painting company in the bay area. Professional, go with us!
+                            We are the best, most loayl respected and trustworthy painting company in the bay area. Professional, go with us!
                         </p>
                     </div>
                 </div>
@@ -108,7 +121,7 @@ const Commercial = () => {
                 <div class="row justify-content-center align-self-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Preliminary} class="card-img-top" alt="Preliminary process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Preliminary</h5>
                                 <p class="card-text">
@@ -123,7 +136,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Recommendation} class="card-img-top" alt="Recommendation process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Recommendations</h5>
                                 <p class="card-text">
@@ -137,7 +150,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Schedule} class="card-img-top" alt="Schedule process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Schedule</h5>
                                 <p class="card-text">
@@ -153,7 +166,7 @@ const Commercial = () => {
                 
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Preparation} class="card-img-top" alt="Preparation process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Preparation</h5>
                                 <p class="card-text">
@@ -168,7 +181,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Painting} class="card-img-top" alt="Painting process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Painting</h5>
                                 <p class="card-text">
@@ -183,7 +196,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Quality} class="card-img-top" alt="Quality process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Quality Check</h5>
                                 <p class="card-text">
@@ -197,7 +210,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Review} class="card-img-top" alt="Review process photo"></img>
                             <div class="card-body">
                                 <h5 class="card-title">Review</h5>
                                 <p class="card-text">
@@ -215,6 +228,11 @@ const Commercial = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Customer Satisfaction</h5>
                                 <p class="card-text">We Guarantee you will be Happy with all your Painting needs if you contact All American Painting.</p>
+                                <Link to="/Contact" >
+                                    <button className="btn btn-secondary button-background-blue button-text-white">
+                                        Contact Us
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
