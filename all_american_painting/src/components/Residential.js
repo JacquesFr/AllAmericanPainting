@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import DerekSpray from './images/SlideShow-derek-spraying.JPG';
 import House1 from './images/Residential/House_1.JPG';
@@ -31,10 +32,6 @@ const Residential = () => {
                 <Carousel autoPlay={true}>
                     <Carousel.Item interval={5000}>
                         <img className="d-block w-100" src={House2} alt="Loading"width="600" height="500" />
-                        <Carousel.Caption>
-                            <h3>ALL AMERICAN PAINTING</h3>
-                            <p>An expert commercial, industrial and residential painting company based in Pleasanton California.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item interval={5000}>
@@ -45,10 +42,6 @@ const Residential = () => {
                         width="600"
                         height="500"
                         />
-                        <Carousel.Caption>
-                        <h3>ALL AMERICAN PAINTING</h3>
-                        <p>An expert commercial, industrial and residential painting company based in Pleasanton California.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item interval={5000}>
@@ -59,10 +52,6 @@ const Residential = () => {
                         width="600"
                         height="500"
                         />
-                        <Carousel.Caption>
-                        <h3>ALL AMERICAN PAINTING</h3>
-                        <p>An expert commercial, industrial and residential painting company based in Pleasanton California.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
 
                 </Carousel>
@@ -220,8 +209,8 @@ const Residential = () => {
                                 <h5 class="card-title">Review</h5>
                                 <p class="card-text">
                                     <ul>
-                                            <li>Review finished painting project with Property Owner and check agreement to assure work as promised and the customer is satisfied. </li>
-                                            <li>Deliver final invoice when completed with a full written guarantee from the paint manufacturer.</li>
+                                        <li>Review finished painting project with Property Owner and check agreement to assure work as promised and the customer is satisfied. </li>
+                                        <li>Deliver final invoice when completed with a full written guarantee from the paint manufacturer.</li>
                                     </ul>
                                 </p>
                             </div>
@@ -232,11 +221,12 @@ const Residential = () => {
                             <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Customer Satisfaction</h5>
-                                <p class="card-text">
-                                <ul>
-                                        <li></li>
-                                </ul>
-                                </p>
+                                <p class="card-text">We Guarantee you will be Happy with all your Painting needs if you contact All American Painting.</p>
+                                <Link to="/Contact" >
+                                    <button className="btn btn-secondary button-background-blue button-text-white">
+                                        Contact Us
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
