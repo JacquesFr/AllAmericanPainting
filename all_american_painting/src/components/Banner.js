@@ -19,6 +19,8 @@ const Banner = () => {
                         1569 Kolln Street <br/>
                         Pleasanton, CA 94566 <br />
                         <a href="tel:510-461-1677">(510) 461-1677</a>
+                        <br></br>
+                        <a>CA License #710988 Bonded/Insured</a>
                     </p>
                     
                 </div>
