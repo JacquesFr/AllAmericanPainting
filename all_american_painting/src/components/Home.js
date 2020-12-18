@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <div>
                 <div className="jumbotron" style={{margin: "0"}}>
-                    <h1 class="display-4">All American Painting</h1>
+                    <h1 class="display-6">All American Painting</h1>
                     <p class="lead">Serving the Bay Area since 1995!</p>
                 </div>
                 <SlideShow />
