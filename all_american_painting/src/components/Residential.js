@@ -1,12 +1,14 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import DerekSpray from './images/SlideShow-derek-spraying.JPG';
-import PaintRollers from './images/Residential/Paint_Colors.jpg';
 import House1 from './images/Residential/House_1.JPG';
 import House2 from './images/Residential/House_2.JPG';
 import House3 from './images/Residential/House_3.jpg';
-import House4 from './images/Residential/House_4.jpg';
-import GoldenGate from './images/Residential/Golden_Gate.jpg';
+import PaintingHouse from './images/Residential/paintinghouse.JPG';
+import PressureWash from './images/Residential/pressurewash.JPG';
+import Recommendations from './images/Residential/recommendations.jpg';
+import Schedule from './images/Residential/schedule.jpg';
+import Preliminary from './images/Residential/preliminary.jpg';
 import './styles.css';
 
 
@@ -14,13 +16,10 @@ const Residential = () => {
     return (
         <div>
 
-            {/* Jumbotron */}
+        {/* Jumbotron */}
 
-            <div class="res">
-                <div class="jumbotron res" >
-                    <h1 class="display-4 res-text">Residential Painting</h1>
-                    <p class="lead res-text-l">Serving The Bay Area since 1995</p>
-            </div>   
+        <div class="jumbotron res" >
+            <h1 class="display-4 res-text">Residential Painting</h1>
         </div>
         
        {/* Slide Show */}
@@ -41,7 +40,21 @@ const Residential = () => {
                     <Carousel.Item interval={5000}>
                         <img
                         className="d-block w-100"
-                        src={House2}
+                        src={House1}
+                        alt="Loading"
+                        width="600"
+                        height="500"
+                        />
+                        <Carousel.Caption>
+                        <h3>ALL AMERICAN PAINTING</h3>
+                        <p>An expert commercial, industrial and residential painting company based in Pleasanton California.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={5000}>
+                        <img
+                        className="d-block w-100"
+                        src={House3}
                         alt="Loading"
                         width="600"
                         height="500"
@@ -110,10 +123,10 @@ const Residential = () => {
                 <h1 class="text-center" style={{color: "#b22234"}}>Our Process</h1>
                 <p></p>
             </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                <div class="row justify-content-center align-self-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Preliminary} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <h5 class="card-title">Preliminary</h5>
                                 <p class="card-text">
@@ -126,9 +139,9 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Recommendations} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Recommendations</h5>
                                 <p class="card-text">
@@ -140,9 +153,9 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Schedule} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Schedule</h5>
                                 <p class="card-text">
@@ -156,9 +169,9 @@ const Residential = () => {
                         </div>
                     </div>
                 
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={PressureWash} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Preparation</h5>
                                 <p class="card-text">
@@ -171,9 +184,9 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={PaintingHouse} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Painting</h5>
                                 <p class="card-text">
@@ -186,7 +199,7 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
                             <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">
@@ -200,9 +213,9 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={House2} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Review</h5>
                                 <p class="card-text">
@@ -214,7 +227,7 @@ const Residential = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 cards-style">
+                    <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
                             <img src={DerekSpray} class="card-img-top" alt="..."></img>
                             <div class="card-body">

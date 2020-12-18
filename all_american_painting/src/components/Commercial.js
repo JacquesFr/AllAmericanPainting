@@ -8,12 +8,11 @@ const Commercial = () => {
         <div>
 
             {/* Jumbotron */}
-
-            <div class="jumbotron">
-                <h1 class="display-4">Commercial Painting</h1>
-                <p class="lead">Serving some of the largest commercial buisnesses in the bay area for 25 years.</p>
+            
+            <div class="jumbotron comm">
+                <h1 class="display-4 comm-text">Commercial Painting</h1>
+                <p class="lead comm-text">Serving some of the largest commercial businesses in the Bay Area for over 25 years</p>
             </div>
-
             {/* Slide Show */}
 
             <div class="container-fluid" style={{margin: "5% 0 5% 0"}}>
