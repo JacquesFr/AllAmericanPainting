@@ -44,14 +44,14 @@ a {
 }
 
 ul.nav a:hover {
-    color: #3c3b6e !important;
-    /* color: #ffffff !important;
-    background-color: #3c3b6e;
-    transition: background-color .5s, color .5s; */
+    color: #09479d !important;
+    color: #ffffff !important;
+    background-color: #09479d;
+    transition: background-color .5s, color .5s;
 }
 
 .button-background-blue {
-    background-color: #3c3b6e;
+    background-color: #09479d;
 }
 
 .button-text-white {
@@ -64,12 +64,13 @@ ul.nav a:hover {
 
 .cards-style {
     margin-bottom: 1%;
+    height: auto;
 }
 
 .stats-container {
     text-align: center;
     margin: 2% 0 2% 0;
-    background-color: #3c3b6e;
+    background-color: #09479d;
 }
 
 .stats-item {
@@ -104,6 +105,21 @@ ul.nav a:hover {
 
 .res-text-l{
     font-weight: bold;
-    color: rgb(0, 89, 255);
+    color:  #fcfcfc;
+
+}
+
+.comm {
+    background-image: url('./images/Golden_Gate.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;    
+}
+
+.comm-text{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 
 }

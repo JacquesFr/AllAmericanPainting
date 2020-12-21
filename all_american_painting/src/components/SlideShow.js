@@ -10,6 +10,7 @@ import Residential from './images/SlideShow-Residential-Derek.JPG';
 const SlideShow = () => {
     return (
         <div>
+
             <Carousel autoPlay={true}>
                 <Carousel.Item interval={5000}>
                     <img
