@@ -7,7 +7,7 @@ class NavBar extends Component{
         super(props);
         this.state = {
             links: [
-                {path: "/", text:"About", isActive:false},
+                {path: "/", text:"Home", isActive:false},
                 {path: "/Commercial", text:"Commercial Painting", isActive:false},
                 {path: "/Residential", text:"Residential Painting", isActive:false},
                 {path: "/Contact", text:"Contact", isActive:false}

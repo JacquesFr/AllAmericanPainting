@@ -44,14 +44,14 @@ a {
 }
 
 ul.nav a:hover {
-    color: #3c3b6e !important;
-    /* color: #ffffff !important;
-    background-color: #3c3b6e;
-    transition: background-color .5s, color .5s; */
+    color: #09479d !important;
+    color: #ffffff !important;
+    background-color: #09479d;
+    transition: background-color .5s, color .5s;
 }
 
 .button-background-blue {
-    background-color: #3c3b6e;
+    background-color: #09479d;
 }
 
 .button-text-white {
@@ -70,7 +70,7 @@ ul.nav a:hover {
 .stats-container {
     text-align: center;
     margin: 2% 0 2% 0;
-    background-color: #3c3b6e;
+    background-color: #09479d;
 }
 
 .stats-item {
