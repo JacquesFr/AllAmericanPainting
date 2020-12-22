@@ -81,7 +81,6 @@ ul.nav a:hover {
 .icon-stats {
     font-size: 3em;
     margin-bottom: 1%;
-
 }
 
 .stats-number {
@@ -122,4 +121,18 @@ ul.nav a:hover {
     color: rgb(0, 0, 0);
     font-weight: bold;
 
+}
+
+.contact-page {
+    text-align: center;
+    margin: 4% 0 4% 0;
+}
+
+.contact-info {
+    /* text-align: left !important; */
+    margin: 0 2% 0 2%;
+}
+
+.info-styles{
+    margin: 2% 0 2% 0;
 }
