@@ -1,11 +1,13 @@
 import React from 'react';
+import Award from './images/Award-AllAmericanPainting-Pleasanton.jpg';
 import './styles.css';
 
 const Contact = () => {
     return (
         <div>
-            <div className="jumbotron comm" style={{margin: "0 0 2% 0"}}>
-                <h1 class="display-6 comm-text">Get a Quote</h1>
+            <div className="jumbotron contact-img" style={{margin: "0 0 2% 0"}}>
+                <h1 class="display-3 comm-text">Get a Quote</h1>
+                <p className="lead comm-text">Serving the Bay Area</p>
             </div>
             <div className="container-fluid contact-page">
                 <div className="row">
@@ -58,6 +60,11 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <div className="container-fluid" style={{textAlign: "center"}}>
+                <h1 style={{color: "#09479d"}}>Community Trusted</h1>
+                <img src={Award} class="rounded img-fluid w-50" alt="Pleasanton All American Painting Award" style={{margin: "0 0 2% 0"}}></img>
+            </div>
+
         </div>
     );
 };

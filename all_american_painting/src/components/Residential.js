@@ -6,12 +6,12 @@ import House1 from './images/Residential/House_1.JPG';
 import House2 from './images/Residential/House_2.JPG';
 import House3 from './images/Residential/House_3.jpg';
 import PaintingHouse from './images/Residential/paintinghouse.JPG';
-import PressureWash from './images/Residential/pressurewash.JPG';
+import Preparation from './images/Residential/color-pallete.jpg';
 import Recommendations from './images/Residential/recommendations.jpg';
 import Schedule from './images/Residential/schedule.jpg';
 import Preliminary from './images/Residential/preliminary.jpg';
+import Award from './images/Award-AllAmericanPainting-Pleasanton-thumbnail.jpg';
 import './styles.css';
-
 
 const Residential = () => {
     return (
@@ -21,6 +21,8 @@ const Residential = () => {
 
         <div class="jumbotron res" >
             <h1 class="display-4 res-text">Residential Painting</h1>
+            <p class="lead comm-text">Expert painting for all homes in the Bay Area</p>
+
         </div>
         
        {/* Slide Show */}
@@ -58,9 +60,9 @@ const Residential = () => {
                 </div>
                 <div class="col-md-6 paragraph-text">
                     <h1 style={{color: "#b22234"}}>Our Commitment</h1>
-                    <p>
-                        We are the best, most loyal respected and trustworthy painting company in the bay area. Professional, go with us!
-                    </p>
+                    <h4 style={{textAlign: "left"}}>
+                        ALL AMERICAN PAINTING provides expert painting at affordable rates. We pride ourselves in always offering quality work in a timely manner for all types of projects.  Servicing residential homes for 25 years, we guarantee you will be happy with your new paint job from us!
+                    </h4>
                 </div>
             </div>
            
@@ -160,7 +162,7 @@ const Residential = () => {
                 
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={PressureWash} class="card-img-top" alt="..."></img>
+                            <img src={Preparation} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Preparation</h5>
                                 <p class="card-text">
@@ -218,7 +220,7 @@ const Residential = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Award} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Customer Satisfaction</h5>
                                 <p class="card-text">We Guarantee you will be Happy with all your Painting needs if you contact All American Painting.</p>

@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 import AmericanFlag from './images/American-Flag.png'
 import AmericanFlagBay from './images/American-Flag-Bay.jpg'
-
 import Services from './images/SlideShow-prologis-process.JPG'
+import Commercial from './images/SlideShow-property-management-front.JPG';
+import Award from './images/Award-AllAmericanPainting-Pleasanton.jpg';
 
 const AboutUs = () => {
     return (
@@ -34,9 +35,9 @@ const AboutUs = () => {
                 <hr className="featurette-divider" />                    
                 <div className="row about-us-cards">
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={Commercial} width="140" height="140"></img>
                         <h2>Commercial</h2>
-                        <p>We service large commercial companies such as Prologis, BioMed Reality and Asset Property Management throughout the Bay Area. Explore our process and past clients for all types of commercial properties needing expert painting.</p>
+                        <p>We service large commercial companies such as Prologis, BioMed Reality, Asset Property Management and others in the Bay Area. Explore our process and past clients for all types of commercial properties needing expert painting.</p>
                         <p>
                             <Link to="/Commercial">
                                 <button className="btn btn-secondary button-background-blue button-text-white">
@@ -48,7 +49,7 @@ const AboutUs = () => {
                     <div className="col-lg-4">
                         <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                         <h2>Residential</h2>
-                        <p>For 25 years All American Painting has been painting private homes all year round. Explore our process and past clients for residential properties needing expert painting.</p>
+                        <p>For 25 years All American Painting has been painting private homes all year round. Explore our process and completed projects for residential properties needing expert painting.</p>
                         <p>
                             <Link to="/Residential">
                                 <button className="btn btn-secondary button-background-blue button-text-white">
@@ -58,9 +59,9 @@ const AboutUs = () => {
                         </p>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={Award} width="140" height="140"></img>
                         <h2>Get A Quote</h2>
-                        <p>Are you a buisness owner or property manager looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
+                        <p>Are you a buisness owner or property owner looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
                         <p>
                             <Link to="/Contact" >
                                 <button className="btn btn-secondary button-background-blue button-text-white">

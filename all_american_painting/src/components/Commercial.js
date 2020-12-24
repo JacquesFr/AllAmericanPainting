@@ -12,6 +12,7 @@ import Quality from './images/Commercial/com-quality-check.JPG';
 import Recommendation from './images/Commercial/com-recommendations.JPG';
 import Review from './images/Commercial/com-review.JPG';
 import Schedule from './images/Commercial/com-schedule.JPG';
+import Award from './images/Award-AllAmericanPainting-Pleasanton-thumbnail.jpg';
 import './styles.css';
 
 const Commercial = () => {
@@ -19,14 +20,14 @@ const Commercial = () => {
         <div>
 
             {/* Jumbotron */}
-            
-            <div class="jumbotron comm">
-                <h1 class="display-4 comm-text">Commercial Painting</h1>
-                <p class="lead comm-text">Serving some of the largest commercial businesses in the Bay Area for over 25 years</p>
+            <div className="container-fluid">
+                <div class="jumbotron comm">
+                    <h1 class="display-4 comm-text">Commercial Painting</h1>
+                    <p class="lead comm-text">Expert painting for the largest commercial businesses in the Bay Area</p>
+                </div>
+                {/* Slide Show */}
             </div>
-            {/* Slide Show */}
-
-            <div class="container-fluid" style={{margin: "5% 0 5% 0"}}>
+            <div class="container-fluid" style={{margin: "2% 0 5% 0"}}>
                 <div class="row">
                     <div class="col-md-6">
                     <Carousel autoPlay={true}>
@@ -64,9 +65,9 @@ const Commercial = () => {
                     </div>
                     <div class="col-md-6 paragraph-text">
                         <h1 style={{color: "#b22234"}}>Our Commitment</h1>
-                        <p>
-                            We are the best, most loayl respected and trustworthy painting company in the bay area. Professional, go with us!
-                        </p>
+                        <h4>
+                            ALL AMERICAN PAINTING provides expert painting at affordable rates. We pride ourselves in always offering quality work in a timely manner for all types of projects. Servicing Commercial businesses for 25 years, we guarantee you will be happy with your new paint job from us!
+                        </h4>
                     </div>
                 </div>
             </div>
@@ -223,7 +224,7 @@ const Commercial = () => {
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 cards-style d-flex align-items-stretch">
                         <div class="card">
-                            <img src={DerekSpray} class="card-img-top" alt="..."></img>
+                            <img src={Award} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <h5 class="card-title">Customer Satisfaction</h5>
                                 <p class="card-text">We Guarantee you will be Happy with all your Painting needs if you contact All American Painting.</p>
