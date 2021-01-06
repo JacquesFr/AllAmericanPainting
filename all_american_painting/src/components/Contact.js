@@ -1,5 +1,6 @@
 import React from 'react';
 import Award from './images/Award-AllAmericanPainting-Pleasanton.jpg';
+import Derek from './images/derekDavis.JPG';
 import './styles.css';
 
 const Contact = () => {
@@ -12,7 +13,7 @@ const Contact = () => {
             <div className="container-fluid contact-page">
                 <div className="row">
                     <div className="col-md-5">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={Derek} width="140" height="140" alt="Contact" ></img>
                         <h1>Derek Davis</h1>
                         <p style={{color: "#09479d"}}>
                             <i>Buisness Owner &#183;
