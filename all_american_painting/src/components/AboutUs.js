@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-import AmericanFlag from './images/American-Flag.png'
-import AmericanFlagBay from './images/American-Flag-Bay.jpg'
-
 import Services from './images/SlideShow-prologis-process.JPG'
+import Commercial from './images/SlideShow-property-management-front.JPG';
+import Award from './images/Award-AllAmericanPainting-Pleasanton.jpg';
+import AmericanFlagBay from './images/American-Flag-Bay.jpg';
+import ptownBack from './images/ptown-house-back.jpg';
 
 const AboutUs = () => {
     return (
@@ -18,7 +19,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img className="featurette-image img-fluid mx-auto" src={AmericanFlagBay} width="500" height="400"></img>
+                        <img className="featurette-image img-fluid mx-auto" src={AmericanFlagBay} width="500" height="400" alt="american-flag"></img>
                     </div>
                 </div>
                 <hr className="featurette-divider" />
@@ -28,15 +29,15 @@ const AboutUs = () => {
                         <p className="lead">We provide expert painting services for Property Management, Warehouse/Distribution, Homeowner's Associations, General Contractors and more. Every project is carefully managed to ensure the painting process goes as smoothly as possible and is completed to your complete satisfaction and on schedule. Our painting process is carefully designed to provide you with the best possible painting experience.</p>
                     </div>
                     <div className="col-md-5">
-                    <img className="featurette-image img-fluid mx-auto" src={Services} width="500" height="400"></img>
+                    <img className="featurette-image img-fluid mx-auto" src={Services} width="500" height="400" alt="Services"></img>
                     </div>
                 </div>
                 <hr className="featurette-divider" />                    
                 <div className="row about-us-cards">
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={Commercial} width="140" height="140" alt="Commercial"></img>
                         <h2>Commercial</h2>
-                        <p>We service large commercial companies such as Prologis, BioMed Reality and Asset Property Management throughout the Bay Area. Explore our process and past clients for all types of commercial properties needing expert painting.</p>
+                        <p style={{textAlign: "left"}}>We service large commercial companies such as Prologis, BioMed Reality, Asset Property Management and others in the Bay Area. Explore our process and past projects for all types of commercial properties needing expert painting.</p>
                         <p>
                             <Link to="/Commercial">
                                 <button className="btn btn-secondary button-background-blue button-text-white">
@@ -46,9 +47,9 @@ const AboutUs = () => {
                         </p>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={ptownBack} width="140" height="140" alt="Contact" ></img>
                         <h2>Residential</h2>
-                        <p>For 25 years All American Painting has been painting private homes all year round. Explore our process and past clients for residential properties needing expert painting.</p>
+                        <p style={{textAlign: "left"}}>For 25 years All American Painting has been painting private homes all year round. Explore our process and completed projects for residential properties needing expert painting.</p>
                         <p>
                             <Link to="/Residential">
                                 <button className="btn btn-secondary button-background-blue button-text-white">
@@ -58,9 +59,9 @@ const AboutUs = () => {
                         </p>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <img className="rounded-circle" src={Award} width="140" height="140" alt="Contact" ></img>
                         <h2>Get A Quote</h2>
-                        <p>Are you a buisness owner or property manager looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
+                        <p style={{textAlign: "left"}}>Are you a buisness owner or property owner looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
                         <p>
                             <Link to="/Contact" >
                                 <button className="btn btn-secondary button-background-blue button-text-white">
