@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import DerekSpray from './images/SlideShow-derek-spraying.JPG';
 import PrologisComplete from './images/SlideShow-prologis-complete.JPG'
 import BOTW from './images/SlideShow-botw.JPG';
-import PropertyManagementFront from './images/SlideShow-property-management-front.JPG';
 import Residential from './images/SlideShow-Residential-Derek.JPG';
 
 const SlideShow = () => {

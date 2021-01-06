@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
             <div className="jumbotron contact-img" style={{margin: "0 0 2% 0"}}>
-                <h1 class="display-3 comm-text">Get a Quote</h1>
+                <h1 className="display-3 comm-text">Get a Quote</h1>
                 <p className="lead comm-text">Serving the Bay Area</p>
             </div>
             <div className="container-fluid contact-page">
@@ -25,7 +25,7 @@ const Contact = () => {
                                 <a href="tel:510-461-1677">
                                     <div className="row align-items-center info-styles">
                                         <div className="col-3" style={{textAlign: "center"}}>
-                                            <h1><i class="fa fa-mobile" aria-hidden="true" style={{color: "#09479d"}}></i></h1>
+                                            <span style={{fontSize: "200%"}}><i className="fa fa-mobile" aria-hidden="true" style={{color: "#09479d"}}></i></span>
                                         </div>
                                         <div className="col-9" style={{textAlign: "center"}}>
                                             <h3 style={{color: "#000000"}}>(510) 461-1677</h3>
@@ -36,7 +36,7 @@ const Contact = () => {
                                 <a href="mailto: allamericanpnt@aol.com">
                                     <div className="row align-items-center info-styles">
                                         <div className="col-3" style={{textAlign: "center"}}>
-                                            <h1><i class="fa fa-envelope" aria-hidden="true" style={{color: "#09479d"}}></i></h1>
+                                            <span style={{fontSize: "200%"}}><i className="fa fa-envelope" aria-hidden="true" style={{color: "#09479d"}}></i></span>
                                         </div>
                                         <div className="col-9" style={{textAlign: "center"}}>
                                             <h3 style={{color: "#000000"}}>allamericanpnt@aol.com</h3>
@@ -44,17 +44,14 @@ const Contact = () => {
                                     </div>
                                 </a>
 
-
-                                <a href="https://www.google.com/maps/place/1569+Kolln+St,+Pleasanton,+CA+94566/@37.6769118,-121.8707023,17z/data=!3m1!4b1!4m5!3m4!1s0x808fe90f4d2d0083:0xf733ee3b54bebb5e!8m2!3d37.6769118!4d-121.8685136" target="_blank">
-                                    <div className="row align-items-center info-styles">
-                                        <div className="col-3" style={{textAlign: "center"}}>
-                                            <h1><i class="fa fa-map-marker" aria-hidden="true" style={{color: "#09479d"}}></i></h1>
-                                        </div>
-                                        <div className="col-9" style={{textAlign: "center"}}>
-                                            <h3 style={{color: "#000000"}}>1569 Kolln St. Pleasanton, California</h3>
-                                        </div>
+                                <div className="row align-items-center info-styles">
+                                    <div className="col-3" style={{textAlign: "center"}}>
+                                        <span style={{fontSize: "250%"}}><i className="fa fa-map-marker" aria-hidden="true" style={{color: "#09479d"}}></i></span>
                                     </div>
-                                </a>
+                                    <div className="col-9" style={{textAlign: "center"}}>
+                                        <h3 style={{color: "#000000"}}>1569 Kolln St. Pleasanton, California</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -62,7 +59,7 @@ const Contact = () => {
             </div>
             <div className="container-fluid" style={{textAlign: "center"}}>
                 <h1 style={{color: "#09479d"}}>Community Trusted</h1>
-                <img src={Award} class="rounded img-fluid w-50" alt="Pleasanton All American Painting Award" style={{margin: "0 0 2% 0"}}></img>
+                <img src={Award} className="rounded img-fluid w-50" alt="Pleasanton All American Painting Award" style={{margin: "0 0 2% 0"}}></img>
             </div>
 
         </div>
