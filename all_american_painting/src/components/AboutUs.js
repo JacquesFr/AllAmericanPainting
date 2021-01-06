@@ -15,7 +15,7 @@ const AboutUs = () => {
                     <div className="col-md-7 order-md-2" style={{margin: "0 0 0 0"}}>
                         <div className="container about-us-text">
                             <h2 className="featurette-heading">About <span className="text-muted">All American Painting</span></h2>
-                            <p className="lead">In business since 1995, our professional team of employees have years of practical experience working with a wide array of clientele. We are the prefered vendor for several Bay Area property management companies. We provide the right solutions for all your painting needs. If you are looking for a professional and reputable painting contractor, consider ALL AMERICAN PAINTING for your next project.</p>
+                            <p className="lead">In business since 1995, our professional team of employees have years of practical experience working with a wide array of clientele. We are the preferred vendor for several Bay Area property management companies. We provide the right solutions for all your painting needs. If you are looking for a professional and reputable painting contractor, consider ALL AMERICAN PAINTING for your next project.</p>
                         </div>
                     </div>
                     <div className="col-md-5 order-md-1">
