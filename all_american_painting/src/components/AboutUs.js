@@ -61,7 +61,7 @@ const AboutUs = () => {
                     <div className="col-lg-4">
                         <img className="rounded-circle" src={Award} width="140" height="140" alt="Contact" ></img>
                         <h2>Get A Quote</h2>
-                        <p style={{textAlign: "left"}}>Are you a buisness owner or property owner looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
+                        <p style={{textAlign: "left"}}>Are you a business owner or property owner looking for expert painting services in the San Francisco, Bay Area? Contact us to review your project, determine your needs and get a quote!</p>
                         <p>
                             <Link to="/Contact" >
                                 <button className="btn btn-secondary button-background-blue button-text-white">
